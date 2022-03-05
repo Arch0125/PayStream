@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import SimpleStorageContract from "./contracts/SimpleStorage.json";
 import getWeb3 from "./getWeb3";
 import Wallet from "./Wallet/Wallet";
-
+import Details from "./Details/Details";
 import "./App.css";
 
 class App extends Component {
@@ -79,8 +79,9 @@ class App extends Component {
           
 
         </div>
-        <Wallet/>
+        <Details/>
       </div>
+      
     );
   }
 }

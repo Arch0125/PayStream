@@ -1,0 +1,36 @@
+.card {
+    width: 190px;
+    height: 220px;
+    background: rgb(255, 255, 255);
+    border-radius: 0.4em;
+    box-shadow: 0.3em 0.3em 0.7em #00000015;
+    transition: border 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    border: rgb(250, 54250, 250) 0.2em solid;
+    padding-top: 20px;
+   }
+   
+   .card:hover {
+    border: #725ac1 0.2em solid;
+   }
+   .title{
+    font-size: large;
+    font-weight: bolder;
+    color: #192851;
+   }
+
+   .details{
+       margin-top: 30px;
+       font-size: medium;
+       font-weight: 300;
+       color: #192851;
+   }
+
+   .output{
+       padding: 5px;
+       background-color: rgba(236, 236, 236, 0.486);
+       padding-left: 20px;
+       padding-right: 20px;
+       border-radius: 10px;
+       color: #192851;
+   }
+
