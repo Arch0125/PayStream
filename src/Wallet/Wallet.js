@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { ethers } from "ethers";
 import ErrorMessage from "./ErrorMessage";
 import TxList from "./TxList";
+import './Wallet.css'
 
 const startPayment = async ({ setError, setTxs, ether, addr }) => {
   try {
@@ -41,18 +42,20 @@ export default function Wallet() {
   };
 
   return (
-    <form className="m-4" onSubmit={handleSubmit}>
+    <form className="card" onSubmit={handleSubmit}>
       <div className="credit-card w-full lg:w-1/2 sm:w-auto shadow-lg mx-auto rounded-xl bg-white">
         <main className="mt-4 p-4">
-          <h1 className="text-xl font-semibold text-gray-700 text-center">
+          <h1 className="title">
             Send ETH payment
           </h1>
+          <label className="feature" >This is only one-time payment <br/>
+          Most suitable for sending prize money </label>
           <div className="">
             <div className="my-3">
               <input
                 type="text"
                 name="addr"
-                className="input input-bordered block w-full focus:ring focus:outline-none"
+                className="inputbox"
                 placeholder="Recipient Address"
               />
             </div>
@@ -60,7 +63,7 @@ export default function Wallet() {
               <input
                 name="ether"
                 type="text"
-                className="input input-bordered block w-full focus:ring focus:outline-none"
+                className="inputbox"
                 placeholder="Amount in ETH"
               />
             </div>
@@ -69,9 +72,9 @@ export default function Wallet() {
         <footer className="p-4">
           <button
             type="submit"
-            className="btn btn-primary submit-button focus:ring focus:outline-none w-full"
+            className="sendbtn"
           >
-            Pay now
+            Send ETH ✨
           </button>
           <ErrorMessage message={error} />
           <TxList txs={txs} />

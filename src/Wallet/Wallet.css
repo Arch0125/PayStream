@@ -1,0 +1,68 @@
+.card {
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 60px;
+    padding-top: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    width: fit-content;
+    height: 254px;
+    background: rgb(255, 255, 255);
+    border-radius: 20px;
+    box-shadow: 0.3em 0.3em 0.7em #00000015;
+    transition: border 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    border: rgb(250, 250, 250) 0.2em solid;
+   }
+   
+   .card:hover {
+    border: #725AC1 0.2em solid;
+   }
+
+.title{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.feature{
+    font-size: small;
+    font-weight: 200;
+    padding-bottom: 10px;
+}
+
+.inputbox{
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-width: 1px;
+    border-color: #a7a7a7;
+    border-style: solid;
+    border-radius: 5px;
+}
+
+.sendbtn {
+    position: relative;
+    display: inline-block;
+    margin: 15px;
+    padding: 8px 30px;
+    text-align: center;
+    font-size: 15px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: #725AC1;
+    background: transparent;
+    cursor: pointer;
+    transition: ease-out 0.5s;
+    border-radius: 30px;
+    border: 2px solid #725AC1;
+    border-radius: 10px;
+    box-shadow: inset 0 0 0 0 #725AC1;
+   }
+   
+   .sendbtn:hover {
+    color: white;
+    box-shadow: inset 0 -100px 0 0 #725AC1;
+   }
+   
+   .sendbtn:active {
+    transform: scale(0.9);
+   }
