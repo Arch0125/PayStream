@@ -1,8 +1,8 @@
 .card {
-    width: 190px;
-    height: 220px;
+    width: 250px;
+    height: fit-content;
     background: rgb(255, 255, 255);
-    border-radius: 0.4em;
+    border-radius: 0.4emfit-content;
     box-shadow: 0.3em 0.3em 0.7em #00000015;
     transition: border 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     border: rgb(250, 54250, 250) 0.2em solid;
@@ -32,5 +32,14 @@
        padding-right: 20px;
        border-radius: 10px;
        color: #192851;
+   }
+
+   .ethscan{
+       font-size: small;
+       font-weight: 200;
+   }
+   .ethscan:hover{
+       color: #725ac1;
+       cursor: pointer;
    }
 

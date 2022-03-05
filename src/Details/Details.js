@@ -4,7 +4,7 @@ import './Details.css'
 import getWeb3 from "../getWeb3";
 
 class Details extends Component {
-    state = { balance:0,web3: null, accounts: null, addr:''};
+    state = { balance:0,web3: null, accounts: null, addr:'', ethscan:''};
 
   componentDidMount = async () => {
     try {
@@ -21,9 +21,10 @@ class Details extends Component {
       
 
       // Get the contract instance.
-      
+      var ethscan = "https://etherscan.io/address/"+account
       // Set web3, accounts, and contract to the state, and then proceed with an
       // example of interacting with the contract's methods.
+      this.setState({ethscan:ethscan})
       this.setState({addr:acc})
       this.setState({balance:bal})
       this.setState({ web3, accounts});
@@ -46,11 +47,14 @@ class Details extends Component {
     return (
       
       <div className='card' >
-          <label className='title' > Account Details </label>
+          <label className='title' > Account Details 🔍</label>
           <p className='details' >Account Address</p>
           <label className='output'>{this.state.addr}</label>
           <p className='details' >Account Address</p>
           <label className='output'>{this.state.balance} ETH</label>
+          <br/>
+          <br/>
+          <a href={this.state.ethscan} target='_blank' className='ethscan'>View account on etherscan <i class="fa fa-external-link"></i> </a>
       </div>
     );
   }

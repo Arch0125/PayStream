@@ -46,7 +46,7 @@ export default function Wallet() {
       <div className="credit-card w-full lg:w-1/2 sm:w-auto shadow-lg mx-auto rounded-xl bg-white">
         <main className="mt-4 p-4">
           <h1 className="title">
-            Send ETH payment
+            Send ETH payment 💸
           </h1>
           <label className="feature" >This is only one-time payment <br/>
           Most suitable for sending prize money </label>

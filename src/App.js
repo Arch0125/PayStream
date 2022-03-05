@@ -80,6 +80,7 @@ class App extends Component {
 
         </div>
         <Details/>
+        <Wallet/>
       </div>
       
     );
