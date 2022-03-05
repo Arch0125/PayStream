@@ -39,6 +39,12 @@
     border-style: solid;
     border-radius: 5px;
     width: 200px;
+    outline: none;
+}
+
+.inputbox:focus{
+    outline: none;
+    border-color: #725AC1;
 }
 
 .sendbtn {
