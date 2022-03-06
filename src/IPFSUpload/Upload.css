@@ -1,7 +1,8 @@
 .bigcard {
     text-align: center;
     width: 600px;
-    padding-top: 50px;
+    padding-top: 15px;
+    color: #192851;
 
     height: fit-content;
     padding-bottom: 10px;
@@ -13,7 +14,7 @@
    }
    
    .bigcard:hover {
-    border: #006fff 0.2em solid;
+    border: #725ac1 0.2em solid;
    }
 
 /* From cssbuttons.io by @adamgiebl */
@@ -85,5 +86,5 @@
       font-size: small;
       font-weight: 400;
       background-color: #f3f3f3;
-      margin-bottom: 20px;
+      border-radius: 20px;
   }

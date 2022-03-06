@@ -35,15 +35,9 @@ const Upload = () => {
     }
   };
 
-  const copytext = () =>{
-    var copyText = document.getElementById("hash");
-    copyText.select();
-    copyText.setSelectionRange(0, 99999);
-    navigator.clipboard.writeText(copyText.value);
-  }
-
   return (
     <div className="bigcard">
+        <h2>Upload Documents to IPFS</h2>
       <div>
         <form onSubmit={handleSubmit}>
           <input type="file" onChange={retrieveFile} className='uploadbtn' />
@@ -59,7 +53,7 @@ const Upload = () => {
               <a href={el} target="_blank" >
               <button className='submitbtn' >Preview File</button></a>
               <br/>
-              <label onClick={copytext} id="hash" className='hash' ></label><button><i class="fa fa-copy"></i></button>
+              <label id="hash" className='hash' ></label>
           </div>  
           )
           : <label className='help' >Press the above button to upload</label>}
