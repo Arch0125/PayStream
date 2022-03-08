@@ -16,7 +16,7 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
+<Navbar/>
 .App-link {
   color: #09d3ac;
 }
