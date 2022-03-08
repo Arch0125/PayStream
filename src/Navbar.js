@@ -75,7 +75,7 @@ class Navbar extends Component {
       
       <div className="navbar">
         <label className="header">ETH.ship</label>
-        <div className="rightcont"> 
+        <div className="rightcontnav"> 
           <button id="addr" className="cntbtn" onClick={this.showDetails} >Connect Wallet</button>
           
 

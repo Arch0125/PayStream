@@ -1,0 +1,15 @@
+.leftcont{
+    text-align: center;
+    float: left;
+    width: 35%;
+    background-color: #644ca5cb;
+    overflow-y: auto;
+  overflow-x: hidden;
+  text-overflow: ellipsis; 
+}
+
+.rightcont{
+    float: right;    
+    width: 65%;
+    
+}
