@@ -74,7 +74,7 @@ class Navbar extends Component {
     return (
       
       <div className="navbar">
-        <label className="header">ETH.ship</label>
+        <img className="logo" src="https://i.postimg.cc/DZZB5rRx/Screenshot-from-2022-03-08-14-56-09.png" width="200px" />
         <div className="rightcontnav"> 
           <button id="addr" className="cntbtn" onClick={this.showDetails} >Connect Wallet</button>
           
