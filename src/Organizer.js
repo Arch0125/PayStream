@@ -3,6 +3,7 @@ import "./Organizer.css"
 import Details from './Details/Details'
 import Wallet from './Wallet/Wallet'
 import Upload from './IPFSUpload/Upload'
+import FileSender from './IPFSSend/FileSender';
 
 
  class Organizer extends Component {
@@ -17,6 +18,7 @@ import Upload from './IPFSUpload/Upload'
                 </div>
                 <div className='rightcont' >
                     <Upload/>
+                    <FileSender/>
                     
                 </div>
              </div>
