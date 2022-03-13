@@ -60,7 +60,7 @@ class Main extends Component {
           </div>
           
          
-          <button type="submit" className="sendfile">Add Product</button>
+          <button type="submit" className="sendfile">Send Document</button>
         </form>
         <p>&nbsp;</p>
         <table className="table">
