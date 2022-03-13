@@ -4,9 +4,10 @@
     width: 35%;
     background-color: #192851;
     overflow-y: auto;
-  overflow-x: hidden;
+  overflow-x: scroll;
   text-overflow: ellipsis; 
   padding-bottom: 40px;
+  height: max-content;
 }
 
 .rightcont{

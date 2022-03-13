@@ -60,14 +60,14 @@
 .sendfile {
     background-color: #725ac1;
     border: 1px solid #725ac1;
-    padding: 5px 20px;
+    padding: 10px 20px;
     border-radius: 7px;
     transition: .3s;
     color: #fff;
    }
    
    .sendfile:hover {
-    border: 1px solid #725ac1;
+    border: 2px solid #725ac1;
     background-color: transparent;
     color: #725ac1;
    }
@@ -136,3 +136,27 @@
      transform: rotateY(180deg)  rotateX(180deg);
     }
    }
+
+   .filetable {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 30px;
+    margin-right: 100px;
+  }
+  
+  .filetable td, .filetable th {
+    padding: 8px;
+  }
+  
+  .filetable tr:nth-child(even){background-color: #f2f2f2;}
+  
+  .filetable tr:hover {background-color: #ddd;}
+  
+  .filetable th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #725ac1;
+    color: white;
+  }

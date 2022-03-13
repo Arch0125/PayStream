@@ -21,7 +21,7 @@ class Main extends Component {
                 id="productName"
                 type="text"
                 ref={(input) => { this.productName = input }}
-                className="form-control"
+                className="listinput"
                 placeholder="Document Description"
                 required />
             </div>
@@ -30,7 +30,7 @@ class Main extends Component {
                 id="productReceiver"
                 type="text"
                 ref={(input) => { this.productReceiver = input }}
-                className="form-control"
+                className="listinput"
                 placeholder="Recepient Address"
                 required />
             </div>
@@ -42,7 +42,7 @@ class Main extends Component {
               id="productCert"
               type="text"
               ref={(input) => { this.productCert = input }}
-              className="form-control"
+              className="listinput"
               placeholder="Document Hash"
               required />
           </div>
@@ -52,7 +52,7 @@ class Main extends Component {
               id="productPrice"
               type="text"
               ref={(input) => { this.productPrice = input }}
-              className="form-control"
+              className="listinput"
               placeholder="Amount to be transferred (Enter 0 if N/A)"
               required />
           </div>
@@ -63,7 +63,7 @@ class Main extends Component {
           <button type="submit" className="sendfile">Send Document</button>
         </form>
         <p>&nbsp;</p>
-        <table className="table">
+        <table className="filetable">
           <thead>
             <tr>
               <th scope="col">#</th>
@@ -71,7 +71,7 @@ class Main extends Component {
               <th scope="col">Receiver</th>
               <th scope="col">File</th>
               <th scope="col">Owner</th>
-              <th scope="col">Amount to be transferred(if applicable)</th>
+              <th scope="col">Amount transferred</th>
             </tr>
           </thead>
           <tbody id="productList">
