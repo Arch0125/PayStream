@@ -13,5 +13,10 @@
 .rightcont{
     float: right;    
     width: 65%;
+    overflow-y: auto;
+  overflow-x: scroll;
+  text-overflow: ellipsis; 
+  padding-bottom: 40px;
+  height: max-content;
     
 }

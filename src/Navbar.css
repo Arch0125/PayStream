@@ -22,10 +22,10 @@
 }
 
 .navbar{
-  height: 80px;
   background-color: #ffffff;
   width: 100%;
   box-shadow: 2px 2px 20px #725ac1b7;
+  height: fit-content;
 }
 
 .header{
