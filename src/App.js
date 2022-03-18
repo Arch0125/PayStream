@@ -4,6 +4,7 @@ import Details from './Details/Details';
 import Wallet from './Wallet/Wallet';
 import Organizer from './Organizer';
 import Home from './Home';
+import Zapshome from './Zaps/Zapshome';
 
 class App extends Component {
     state = {  } 
@@ -11,7 +12,7 @@ class App extends Component {
         return (
             <div>
                 <Navbar/>
-                <Organizer/>
+                <Zapshome/>
                 
             </div>
             
