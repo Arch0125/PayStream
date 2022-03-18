@@ -42,9 +42,9 @@ export default function Wallet() {
   };
 
   return (
-    <form className="card" onSubmit={handleSubmit}>
-      <div className="credit-card w-full lg:w-1/2 sm:w-auto shadow-lg mx-auto rounded-xl bg-white">
-        <main className="mt-4 p-4">
+    <form className="walletcard" onSubmit={handleSubmit}>
+      <div >
+        <main>
           <h1 className="title">
             Send ETH payment 💸
           </h1>
@@ -76,8 +76,6 @@ export default function Wallet() {
           >
             Send ETH ✨
           </button>
-          <ErrorMessage message={error} />
-          <TxList txs={txs} />
         </footer>
       </div>
     </form>

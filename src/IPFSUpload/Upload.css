@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
 .bigcard {
     margin-left: 150px;
     margin-top: 50px;
@@ -5,7 +7,7 @@
     width: 600px;
     padding-top: 15px;
     color: #192851;
-
+    font-family: 'Montserrat','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     height: fit-content;
     padding-bottom: 10px;
     background: rgb(255, 255, 255);
@@ -25,7 +27,7 @@
     position: relative;
     padding: 20px 90px;
     margin-left: 60px;
-    width: 300px;
+    width: 480px;
     float: left;
     border-radius: 3px;
     font-size: 15px;

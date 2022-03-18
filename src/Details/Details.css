@@ -1,15 +1,15 @@
-.card {
-    width: 250px;
+.walletcard {
+    width: 350px;
     height: fit-content;
     background: rgb(255, 255, 255);
-    border-radius: 0.4emfit-content;
+    border-radius: 20px;
     box-shadow: 0.3em 0.3em 0.7em #00000015;
     transition: border 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     border: rgb(250, 54250, 250) 0.2em solid;
     padding-top: 20px;
    }
    
-   .card:hover {
+   .walletcard:hover {
     border: #725ac1 0.2em solid;
    }
    .title{

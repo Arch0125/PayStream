@@ -46,7 +46,7 @@ class Details extends Component {
     
     return (
       
-      <div className='card' >
+      <div className='walletcard' >
           <label className='title' > Account Details 🔍</label>
           <p className='details' >Account Address</p>
           <label className='output'>{this.state.addr}</label>
