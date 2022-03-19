@@ -26,6 +26,7 @@
   width: 100%;
   box-shadow: 2px 2px 20px #725ac1b7;
   height: fit-content;
+  
 }
 
 .header{
@@ -84,4 +85,19 @@
  
  .cntbtn:hover::before {
   width: 100%;
+ }
+
+ .navopt{
+   font-size: 20px;
+   font-weight: 500;
+   margin-top: 20px;
+   margin-right: 10px;
+   color: #0e1b46;
+ }
+
+ .navopt:hover{
+   cursor: pointer;
+   background-color: #ced9fc;
+   padding: 15px;
+   border-radius: 15px;
  }

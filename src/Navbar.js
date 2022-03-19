@@ -73,12 +73,13 @@ class Navbar extends Component {
     
     return (
       
-      <div className="navbar">
+      <div className="navbar pb-4">
         <img className="logo" src="https://i.postimg.cc/DZZB5rRx/Screenshot-from-2022-03-08-14-56-09.png" width="200px" />
+        <a href='#'><label className="navopt">Dashboard</label></a>
+        <a href='#'><label className="navopt">Streaming</label></a>
+        <a href='#'><label className="navopt">Zaps</label></a>
         <div className="rightcontnav"> 
           <button id="addr" className="cntbtn" onClick={this.showDetails} >Connect Wallet</button>
-          
-
         </div>
       </div>
       
