@@ -1,0 +1,84 @@
+/* From cssbuttons.io by @Sujitkavaiya */
+.subscard {
+    width: 350px;
+    height: 254px;
+    background: rgb(255, 255, 255);
+    border-radius: 20px;
+    box-shadow: 0.3em 0.3em 0.7em #00000015;
+    transition: border 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    border: rgb(250, 250, 250) 0.2em solid;
+    margin-left: 60px;
+    margin-top: 50px;
+   }
+   
+   .subscard:hover {
+    border: #725AC1 0.2em solid;
+   }
+
+   .substitle{
+    font-size: large;
+    font-weight: bolder;
+    color: #192851;
+    padding-top: 20px;
+   }
+
+   .subfeat{
+    font-size: medium;
+    padding-top: 20px;
+   }
+
+   .adr{
+       padding: 5px;
+       outline: none;
+       border-color: darkgray;
+       color: darkgray;
+       border-style: solid;
+       border-width: 1px;
+       border-radius: 10px;
+   }
+
+   .adr:hover{
+       outline: none;
+   }
+
+   .cpy{
+       padding-left: 10px;
+        cursor: pointer;
+   }
+
+
+   /* From cssbuttons.io by @alexmaracinaru */
+.subsbtn {
+    color: aliceblue;
+    cursor: pointer;
+    font-weight: 700;
+    font-family: Helvetica,"sans-serif";
+    transition: all .2s;
+    padding: 10px 20px;
+    border-radius: 100px;
+    background: #725AC1;
+    border: 1px solid transparent;
+    align-items: center;
+    font-size: 15px;
+    margin-top: 20px
+   }
+   
+   .subsbtn:hover {
+    background: #725AC1;
+   }
+   
+   .subsbtn > svg {
+    width: 34px;
+    margin-left: 10px;
+    transition: transform .3s ease-in-out;
+   }
+   
+   .subsbtn:hover svg {
+    transform: translateX(5px);
+   }
+   
+   .subsbtn:active {
+    transform: scale(0.95);
+   }
+   
+   

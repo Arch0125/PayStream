@@ -3,6 +3,7 @@ import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import Tips from '../Tips/Tips';
 import Wallet from '../Wallet/Wallet'
 import './Zpage.css'
+import Subs from '../Subs/Subs';
 
 class Zpage1 extends Component {
     state = {  } 
@@ -16,6 +17,7 @@ class Zpage1 extends Component {
                     </div>
                     <div id="rightcont" className="col-md-4">
                         <Tips/>
+                        <Subs/>
                     </div>
                 </div>
             </div>
