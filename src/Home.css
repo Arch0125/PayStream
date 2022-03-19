@@ -1,0 +1,92 @@
+.home{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.intro{
+    font-weight: 900;
+    color: #0e1b46;
+    font-size: 70px;
+}
+
+.htagline{
+    color: #725AC1;
+    font-weight: 600;
+}
+
+.hdesc{
+    font-size: 25px;
+    font-weight: 400;
+    margin-right: 10px;
+}
+
+#zap{
+    background-color: #0e1b46;
+    color: white;
+    margin-top: 20px;
+}
+
+.zaptitle{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.btn {
+    background-image: linear-gradient(45deg, #FF512F 0%, #F09819  51%, #FF512F  100%)
+   }
+   
+   .btn {
+    margin: 20px;
+    width: 200px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    border-radius: 10px;
+    display: block;
+    border: 0px;
+    font-weight: 700;
+    box-shadow: 0px 0px 14px -7px #f09819;
+   }
+   
+   .btn:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+   }
+   
+
+  #leftcont{
+      text-align: right;
+  }
+
+  .dash {
+    position: relative;
+    display: inline-block;
+    margin: 15px;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: #0e1b46;
+    background: transparent;
+    cursor: pointer;
+    transition: ease-out 0.5s;
+    border-radius: 30px;
+    border: 2px solid #0e1b46;
+    border-radius: 10px;
+    box-shadow: inset 0 0 0 0 #0e1b46;
+   }
+   
+   .dash:hover {
+    color: white;
+    box-shadow: inset 0 -100px 0 0 #0e1b46;
+   }
+   
+   .dash:active {
+    transform: scale(0.9);
+   }

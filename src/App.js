@@ -16,7 +16,7 @@ class App extends Component {
         return (
             <div>
                 <Navbar/>
-                <Zpage3/>
+                <Home/>
                 
             </div>
             
