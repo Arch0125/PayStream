@@ -6,6 +6,7 @@ import Organizer from './Organizer';
 import Home from './Home';
 import Zapshome from './Zaps/Zapshome';
 import Zpage1 from './Pages/Zpage1';
+import Zpage2 from './Pages/Zpage2';
 
 class App extends Component {
     state = {  } 
@@ -13,7 +14,7 @@ class App extends Component {
         return (
             <div>
                 <Navbar/>
-                <Zpage1/>
+                <Zpage2/>
                 
             </div>
             

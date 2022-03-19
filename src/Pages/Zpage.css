@@ -41,3 +41,9 @@
        font-weight: bold;
        color: #725AC1;
    }
+
+   .bullet{
+       color: #0b163f;
+       font-weight: 900;
+       background-color: #0b163f;
+   }
