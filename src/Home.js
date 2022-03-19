@@ -47,6 +47,23 @@ class Home extends Component {
                         <label className='intro' >Streaming Dashboard</label>
                     </div>
                 </div>
+
+                <div class="end">
+                    <div class="tools">
+                    </div>
+                    <div class="end__content</div> mt-5">
+                        <label>This is the beta version of PayStream
+                            <br/>We are giving our best to bring the service live as soon as possible
+                            <br/>Till then enjoy and let us know what we can do to make it better
+                        </label>
+                        <br/>
+                        <label>This project is powered by </label>
+                        <br/>
+                        <img className='mr-2' src='https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,f_auto,q_auto:eco,dpr_1/xhwcodrzvkpktyzwfjjw' width={"100px"} />
+                        <img className='bg-white px-1 py-1 mr-2' width={"100px"} src='https://uploads-ssl.webflow.com/5f9a1900790900e2b7f25ba1/611f9d12419f2e2b75f158fb_polygon-logo.svg' />
+                        <img className='bg-white' width={"70px"} src='https://upload.wikimedia.org/wikipedia/commons/c/c2/IPFS_logo.png'/>
+                    </div>
+                    </div>
         
             </div>
         );
