@@ -47,3 +47,34 @@
        font-weight: 900;
        background-color: #0b163f;
    }
+
+   .ticket{
+       width: 80px;
+       text-align: center;
+       border-radius: 10px 0px 0px 10px;
+       border-width: 0.5px;
+       border-style: solid
+   }
+
+   .ticket:hover{
+       outline: none;
+   }
+
+   .ticket:active{
+       outline: none;
+   }
+
+   .confirm{
+       border-radius: 0px 10px 10px 0px;
+       border-width: 0.5px;
+       border-style: solid;
+       color: #725AC1;
+       background-color: white;
+       border-color: #725AC1;
+   }
+
+   .confirm:hover{
+       background-color: #725AC1;
+       color: white;
+       border-color: #725AC1;
+   }
