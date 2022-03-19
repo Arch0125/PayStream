@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from './Navbar';
 import Details from './Details/Details';
 import Wallet from './Wallet/Wallet';
@@ -14,11 +15,17 @@ class App extends Component {
     state = {  } 
     render() { 
         return (
-            <div>
+            <BrowserRouter>
                 <Navbar/>
-                <Home/>
-                
-            </div>
+                <Routes>
+                    <Route path='/' element={<Home/>} />
+                    <Route path='/dashboard' element={<Organizer/>} />
+                    <Route path='/zaps' element={<Zapshome/>}/>
+                    <Route path='/zaps/OGgamers' element={<Zpage1/>}/>
+                    <Route path='/zaps/Zapfest' element={<Zpage2/>}/>
+                    <Route path='/zaps/Excel' element={<Zpage3/>}/>
+                </Routes>
+            </BrowserRouter>
             
         );
     }

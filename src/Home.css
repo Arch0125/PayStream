@@ -32,13 +32,15 @@
     font-weight: 700;
 }
 
-.btn {
+.zbtn {
+    align-self: center;
     background-image: linear-gradient(45deg, #FF512F 0%, #F09819  51%, #FF512F  100%)
    }
    
-   .btn {
-    margin: 20px;
+   .zbtn {
+    margin: auto;
     width: 200px;
+    padding: 10px;
     text-align: center;
     text-transform: uppercase;
     transition: 0.5s;
@@ -51,7 +53,7 @@
     box-shadow: 0px 0px 14px -7px #f09819;
    }
    
-   .btn:hover {
+   .zbtn:hover {
     background-position: right center;
     /* change the direction of the change here */
     color: #fff;

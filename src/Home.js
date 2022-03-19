@@ -14,7 +14,8 @@ class Home extends Component {
                     <div class="col">
                         <p className='hdesc'>With the power of Superfluid Protocol and IPFS, PayStream provides you Payment Streaming, Transferring Payrolls, Registering events and a lot more all under one dashboard.</p>
                         <p className='hdesc'>If you're <span className='htagline'>Organizer</span>, <span className='htagline'>Creator</span>, <span className='htagline'>Artist</span> or a <span className='htagline'>Fan</span> we've got everything that suits you</p>
-
+                        <br/>
+                        <a href='/dashboard'><button className='dash'>Get Started <i class="fa fa-angle-double-right" aria-hidden="true"></i></button></a>
                     </div>
                     <div class="col-md">
                         <img src="https://remitec.co.uk/wp-content/themes/remitec_site/assets/img/intro.gif" className='img-fluid' />
@@ -23,7 +24,7 @@ class Home extends Component {
                 <div id="zap" className='home' >
                     <label className='zaptitle'>⚡ Introducing Zap Pages ⚡</label>
                     <p className='hdesc' >Create your own Customised Payment pages to handle your subscriptions, fees, events</p>
-                    <button className='btn'>Try it out</button>
+                    <a href='/zaps'><button className='zbtn'>Try it out</button></a>
                 </div>
 
                 <div className="row mt-5 mb-5">
@@ -33,7 +34,7 @@ class Home extends Component {
                     <div className="col">
                     <label className='hdesc'>Send Payments <br/> Upload and send documents through IPFS <br/> Get account details</label>
                     <br/>
-                    <button className='dash'>View Dashboard</button>
+                    <a href='/dashboard'><button className='dash'>View Dashboard</button></a>
                     </div>
                 </div>
 

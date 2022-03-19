@@ -74,10 +74,10 @@ class Navbar extends Component {
     return (
       
       <div className="navbar pb-4">
-        <img className="logo" src="https://i.postimg.cc/DZZB5rRx/Screenshot-from-2022-03-08-14-56-09.png" width="200px" />
-        <a href='#'><label className="navopt">Dashboard</label></a>
+        <a href='/'><img className="logo" src="https://i.postimg.cc/DZZB5rRx/Screenshot-from-2022-03-08-14-56-09.png" width="200px" /></a>
+        <a href='/dashboard'><label className="navopt">Dashboard</label></a>
         <a href='#'><label className="navopt">Streaming</label></a>
-        <a href='#'><label className="navopt">Zaps</label></a>
+        <a href='/zaps'><label className="navopt">Zaps</label></a>
         <div className="rightcontnav"> 
           <button id="addr" className="cntbtn" onClick={this.showDetails} >Connect Wallet</button>
         </div>

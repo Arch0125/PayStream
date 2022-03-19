@@ -10,6 +10,7 @@
 }
 
 .rightcont{
+  text-align: center;
     float: right;  
     margin-right: 180px;  
     overflow-y: auto;
