@@ -63,6 +63,7 @@ class Home extends Component {
                         <img className='mr-2' src='https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,f_auto,q_auto:eco,dpr_1/xhwcodrzvkpktyzwfjjw' width={"100px"} />
                         <img className='bg-white px-1 py-1 mr-2' width={"100px"} src='https://uploads-ssl.webflow.com/5f9a1900790900e2b7f25ba1/611f9d12419f2e2b75f158fb_polygon-logo.svg' />
                         <img className='bg-white' width={"70px"} src='https://upload.wikimedia.org/wikipedia/commons/c/c2/IPFS_logo.png'/>
+                        <img className='bg-white ml-2 px-2https://docs.spheron.network/img/favicon.ico' width={"28px"} src='https://docs.spheron.network/img/favicon.ico' />
                     </div>
                     </div>
         
