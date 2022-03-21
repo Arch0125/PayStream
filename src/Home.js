@@ -42,7 +42,7 @@ class Home extends Component {
                     <div id='leftcont' className="col">
                         <label className='hdesc'>Create and edit Streams <br/>Manage Subscriptions<br/>Transfer Payrolls</label>
                         <br/>
-                        <button className='dash'>Start Streaming</button>
+                        <a target={"_blank"} href='http://eth-ship_streamer-k50gfw.argoapp.io'><button className='dash'>Start Streaming</button></a>
                     </div>
                     <div  className="col border-left border-primary">
                         <label className='intro' >Streaming Dashboard</label>

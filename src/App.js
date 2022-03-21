@@ -19,8 +19,8 @@ function App() {
                 <Route exact path="/" component={Home} />
                 <Route exact path="/dashboard" component={Organizer} />
                 <Route exact path="/zaps" component={Zapshome}/>
-                <Route exact path="/zaps/Zapfest" component={Zpage1} />
-                <Route exact path="/zaps/OGgamers" component={Zpage2} />
+                <Route exact path="/zaps/Zapfest" component={Zpage2} />
+                <Route exact path="/zaps/OGgamers" component={Zpage1} />
                 <Route exact path="/zaps/Excel" component={Zpage3} />                    
                 </Router>
             </section>

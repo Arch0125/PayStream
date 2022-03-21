@@ -34,7 +34,7 @@ class Zpage1 extends Component {
                             </div>
                             <div className="col">
                                 <div className='zcard'>
-                                    TIER 2
+                                <h5 className='tier'>TIER 2</h5>
                                     <hr/>
                                     <label>5 MATIC/month</label>
                                     <br/>
@@ -47,7 +47,7 @@ class Zpage1 extends Component {
                             </div>
                             <div className="col">
                                 <div className='zcard'>
-                                    TIER 3
+                                <h5 className='tier'>TIER 3</h5>
                                     <hr/>
                                     <label>10 MATIC/month</label>
                                     <br/>
