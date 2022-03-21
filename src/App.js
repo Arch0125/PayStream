@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Link, HashRouter as Router, Route } from "react-router-dom";
 import Navbar from './Navbar';
 import Details from './Details/Details';
 import Wallet from './Wallet/Wallet';
@@ -11,24 +11,22 @@ import Zpage2 from './Pages/Zpage2';
 import Zpage3 from './Pages/Zpage3';
 
 
-class App extends Component {
-    state = {  } 
-    render() { 
+function App() { 
         return (
-            <BrowserRouter>
+            <section>
                 <Navbar/>
-                <Routes>
-                    <Route path='/' element={<Home/>} />
-                    <Route path='/dashboard' element={<Organizer/>} />
-                    <Route path='/zaps' element={<Zapshome/>}/>
-                    <Route path='/zaps/OGgamers' element={<Zpage1/>}/>
-                    <Route path='/zaps/Zapfest' element={<Zpage2/>}/>
-                    <Route path='/zaps/Excel' element={<Zpage3/>}/>
-                </Routes>
-            </BrowserRouter>
+                <Router>
+                <Route exact path="/" component={Home} />
+                <Route exact path="/dashboard" component={Organizer} />
+                <Route exact path="/zaps" component={Zapshome}/>
+                <Route exact path="/zaps/Zapfest" component={Zpage1} />
+                <Route exact path="/zaps/OGgamers" component={Zpage2} />
+                <Route exact path="/zaps/Excel" component={Zpage3} />                    
+                </Router>
+            </section>
             
         );
-    }
+    
 }
  
 export default App;

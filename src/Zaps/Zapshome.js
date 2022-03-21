@@ -35,7 +35,7 @@ class Zapshome extends Component {
                             <div className="card-body">
                                 <h5 className="card-title">Zap Fest</h5>
                                 <p className="card-text">Our annual spring fest consisting music concerts, drama, games and a lot more. Grab your tickets NOW!</p>
-                                <a href='/zaps/Zapfest'><button id='zapbutton' className='' >ZAP IT ⚡</button></a>
+                                <a href='/#/zaps/Zapfest'><button id='zapbutton' className='' >ZAP IT ⚡</button></a>
                             </div>
                         </div>
                         </div>
@@ -45,7 +45,7 @@ class Zapshome extends Component {
                             <div className="card-body">
                                 <h5 className="card-title">OG Gamers</h5>
                                 <p className="card-text">Hey Guys, This is my membership page, Dive in to explore some special uploads and grab the entry to Premium Dicord Channels</p>
-                                <a href='/zaps/OGgamers'><button id='zapbutton' className='' >ZAP IT ⚡</button></a>
+                                <a href='/#/zaps/OGgamers'><button id='zapbutton' className='' >ZAP IT ⚡</button></a>
                             </div>
                         </div>
                         </div>
@@ -55,7 +55,7 @@ class Zapshome extends Component {
                             <div className="card-body">
                                 <h5 className="card-title">Excel Digital Marketing Institute</h5>
                                 <p className="card-text">Course: Marketing in a Digital World. Join in to see how we can upskill you and make yourself job-ready</p>
-                                <a href='/zaps/Excel'><button id='zapbutton' className='' >ZAP IT ⚡</button></a>
+                                <a href='/#/zaps/Excel'><button id='zapbutton' className='' >ZAP IT ⚡</button></a>
                             </div>
                         </div>
                         </div>
