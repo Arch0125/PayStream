@@ -91,7 +91,7 @@ export default function Ticket() {
             type="submit"
             className="sendbtn"
           >
-            Send ETH ✨
+            Send MATIC ✨
           </button>
         </footer>       
       </div>

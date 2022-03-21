@@ -46,7 +46,7 @@ export default function Wallet() {
       <div >
         <main>
           <h1 className="title">
-            Send ETH payment 💸
+            Send MATIC payment 💸
           </h1>
           <label className="feature" >This is only one-time payment <br/>
           Most suitable for sending prize money </label>
@@ -64,7 +64,7 @@ export default function Wallet() {
                 name="ether"
                 type="text"
                 className="inputbox"
-                placeholder="Amount in ETH"
+                placeholder="Amount in MATIC"
               />
             </div>
           </div>
@@ -74,7 +74,7 @@ export default function Wallet() {
             type="submit"
             className="sendbtn"
           >
-            Send ETH ✨
+            Send MATIC ✨
           </button>
         </footer>
       </div>

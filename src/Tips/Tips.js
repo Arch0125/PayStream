@@ -85,7 +85,7 @@ export default function Tips() {
             type="submit"
             className="sendbtn"
           >
-            Send ETH ✨
+            Send MATIC ✨
           </button>
         </footer>       
       </div>
