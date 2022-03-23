@@ -25,7 +25,7 @@ const Subs =()=> {
                     className='adr'
                 />
                 <a className='cpy' onClick={copyToClipboard}><i class="fa fa-clone" aria-hidden="true"></i></a>
-                <a target={"_blank"} href='http://eth-ship_streamer-k50gfw.argoapp.io/'><button className='subsbtn' >Subscription Page <i class="fa fa-caret-right" aria-hidden="true"></i></button></a>
+                <a target={"_blank"} href='https://eth-ship-streamer-7a3cy.argoapp.io/'><button className='subsbtn' >Subscription Page <i class="fa fa-caret-right" aria-hidden="true"></i></button></a>
             </div>
         );
     
